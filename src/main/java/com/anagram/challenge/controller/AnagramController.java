@@ -13,7 +13,6 @@ public class AnagramController {
 
     private final AnagramService anagramService;
 
-    @Autowired
     public AnagramController(AnagramService anagramService) {
         this.anagramService = anagramService;
     }
